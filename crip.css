@@ -211,13 +211,13 @@ p a{
 
 @media (max-width: 600px) {
     .todas {
-        flex-direction: column;
-        align-items: center;
+   
+        justify-items: center;
     }
 
     .todas img {
-        flex: 0 1 80%; 
-        margin: 5px 0; 
+        width: 15%;
+        height: auto;
     }
 
     .bar {
