@@ -208,3 +208,31 @@ text-align: center;
 p a{
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    .todas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .todas img {
+        flex: 0 1 80%; 
+        margin: 5px 0; 
+    }
+
+    .bar {
+        width: 90%; 
+        margin: 10px auto; 
+    }
+
+    .titulo h1 {
+        font-size: 1.5em;
+        padding: 0 10px; 
+    }
+
+    p a {
+        font-size: 1em; 
+        display: block; 
+        margin: 10px 0; 
+    }
+}
